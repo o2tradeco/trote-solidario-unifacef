@@ -1,0 +1,460 @@
+/* ---- STRUCT ---- */
+body {
+    margin: unset;
+    background-color: antiquewhite;
+    color: #212529 !important;
+    letter-spacing: 0.05rem;
+    min-height: 95vh;
+    font-size: 1.1rem;
+}
+
+.container {
+    padding: 0.5rem 10rem;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        padding: 0.5rem 2rem;
+    }
+}
+
+.row {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 500px) {
+    .row {
+        display: grid;
+        gap: 1rem;
+    }
+}
+
+header {
+    background-color: #344f8a;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 3rem 6rem 3rem;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    color: lightgray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 7px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+/* ---- END ---- */
+
+/* ---- TIPOGRAFIA ---- */
+h1, h2, h3, h4, p, ul, li, span, a, button, th, td, label, input {
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 {
+    margin: 0.5rem 0;
+    width: 30%;
+    text-align: start;
+}
+
+.banner em {
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    color: gold;
+}
+
+.h2-card, 
+.h3-card,
+.p-card {
+    margin: 1rem 0;
+    line-height: 1.6rem !important;
+    text-align: justify;
+}
+
+.unstyle-list {
+    list-style: none;
+}
+
+/* ---- END ---- */
+
+/* ---- MENU ---- */
+.nav-main {
+    display: inherit !important;
+    justify-content: inherit !important;
+    align-items: inherit;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: end;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #344f8a;
+}
+
+.menu-itens {
+    gap: 0.9rem;
+    display: flex;
+    width: 70%;
+    line-height: 1.5rem; 
+    justify-content: end !important;
+}
+
+.menu-itens a:hover {
+    border-bottom: 1px solid white;
+} 
+
+@media (max-width: 1400px) {
+    .menu-itens {
+        display: inline-grid;
+        gap: 0.7rem;
+    }
+}
+
+.menu-itens>a {
+    color: white;
+    text-decoration: none;
+}
+/* ---- END ---- */
+
+/* ---- CARD ---- */
+.card-body {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin: -3rem 0 4rem 0;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.row .card-body {
+    width: 50%;
+    cursor: pointer;
+    /* border-left: 2px solid #344f8a; */
+}
+
+.row .card-body:hover {
+    color: white;
+    background-color:  #344f8a;
+    /* border: unset; */
+}
+
+@media (max-width: 500px) {
+    .row .card-body {
+        width: unset;
+    }
+}
+/* ---- END ---- */
+
+/* ---- FOOTER ---- */
+footer {
+    /* color: white;
+    background-color: #344f8a; */
+    display: none;
+}
+/* ---- FOOTER ---- */
+
+/* ---- CUSTOM ---- */
+.success {
+    background-color: #DFF6E0;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.info {
+    background-color: #cff4fc;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    /* color: darkgreen; */
+    border-left: 2px solid #344f8a;
+    /* font-weight: bold; */
+}
+/* ---- END ---- */
+
+/* ---- FAZER IMPLANTAÇÃO NO CSS ---- */
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2rem;
+}
+
+.form-header {
+    text-align: unset;
+    margin-top: 0;
+
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+}
+
+input {
+    border: 1px solid lightgray;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    height: 35px;
+    padding-left: 0.5rem;
+}
+
+.resultado {
+    margin-top: 1rem;
+    background-color: antiquewhite;
+    border: 1px solid lightgray;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border-left: 2px solid #007bff;
+    font-size: 1rem;
+}
+
+.mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.timeline {
+    border-left: 2px solid #2a5298; /* borda à esquerda */
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.evento {
+    margin-bottom: 25px; /* espaçamento fora da borda de 25px */
+    position: relative; /* move o elemento HTML sem alterar elementos ao lado */
+}
+
+.evento::before { /* cria elemento fantasma - aparece como primeiro elemento */
+    content: '';
+    width: 12px; /* largura da bolinha */
+    height: 12px; /* altura da bolinha */
+    background: #ff4b2b; /* fundo da bolinha */
+    border-radius: 50%; /* borda da bolinha */
+    position: absolute; /* posição atual do elemento */
+    left: -28px; /* desloca para esquerda */
+    top: 5px; /* desloca para cima */
+}
+/* ---- END ---- */
+
+@media (max-width: 1100px) {
+    .menu-itens {
+        display: none;
+    }
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* posições laterais */
+.nav-btn.left {
+  left: 8.5rem; /* metade do botão → fica “metade pra fora” */
+}
+
+.nav-btn.right {
+  right: 8.5rem;
+}
+
+@media (max-width: 1100px) {
+  .nav-btn.left {
+    left: 0.5rem; /* ajusta o botão esquerdo para ficar mais próximo da borda */
+  }
+  .nav-btn.right {
+    right: 0.5rem; /* ajusta o botão direito para ficar mais próximo da borda */
+  }
+}
+
+.retrivedContent {
+    height: 400px;
+    overflow-y: auto;
+    flex: 1;
+    padding-right: 0.5rem;
+}
+
+
+/* Chrome / Edge / Safari */
+/* estado normal (escondida ou mínima) */
+.retrivedContent::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* quando o usuário passa o mouse no container */
+.retrivedContent:hover::-webkit-scrollbar {
+  width: 6px;
+}
+
+.retrivedContent::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.retrivedContent::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  /* overflow-y: auto */
+}
+
+.modal.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  width: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  padding: 20px;
+
+}
+
+/* 🔥 importante */
+.modal-body {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  padding-right: 10px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header #btn-close {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+    .box-yellow {
+        width: 100%;
+        height: 2rem;
+        background-color: gold;
+    }
+
+    .box-gray {
+        width: 100%;
+        height: 2rem;
+        background-color: gray;
+    }
+
+    .box-orange {
+        width: 100%;
+        height: 2rem;
+        background-color: darkorange;
+    }
+
+    .box-rouge {
+        width: 100%;
+        height: 2rem;
+        background-color: darkred;
+    }
+
+    .box-black {
+        width: 100%;
+        height: 2rem;
+        background-color: black;
+    }
+
+    .box-pink {
+        width: 100%;
+        height: 2rem;
+        background-color: pink;
+    }
+
+    .box-purple {
+        width: 100%;
+        height: 2rem;
+        background-color: purple;
+    }
+
+    .box-green {
+        width: 100%;
+        height: 2rem;
+        background-color: green;
+    }
+
+    .box-red {
+        width: 100%;
+        height: 2rem;
+        background-color: red;
+    }
