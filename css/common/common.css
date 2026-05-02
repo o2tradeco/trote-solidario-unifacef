@@ -1,0 +1,67 @@
+/* Display */
+.d-flex {
+    display: flex;
+}
+
+/* Display Column */
+.d-flex-comun {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Justify Content */
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* Padding */
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+/* Margin */
+.m-auto {
+    margin: auto;
+}
+
+/* Text Align */
+.text-end {
+    display: flex;
+    justify-content: end;
+}
+
+/* Text */
+.text-link {
+    text-decoration: none;
+}
+
+.text-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.text-primary {
+    color: #1a0dab;;
+}
+
+.text-white {
+    color: white;
+}
+
+/* Unstyled List */
+ul {
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+
+/* Gap */
+.g-1 {
+    gap: 1rem;
+}
+
+.g-2 {
+    gap: 2rem;
+}

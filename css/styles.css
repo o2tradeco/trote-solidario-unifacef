@@ -150,14 +150,15 @@ nav {
 .row .card-body {
     width: 50%;
     cursor: pointer;
-    /* border-left: 2px solid #344f8a; */
+    border-left: 2px solid #344f8a;
 }
 
 .row .card-body:hover {
-    color: white;
+    color: white !important;
     background-color:  #344f8a;
     /* border: unset; */
 }
+
 
 @media (max-width: 500px) {
     .row .card-body {
@@ -168,9 +169,9 @@ nav {
 
 /* ---- FOOTER ---- */
 footer {
-    /* color: white;
-    background-color: #344f8a; */
-    display: none;
+    color: white;
+    background-color: #344f8a;
+    /* display: none; */
 }
 /* ---- FOOTER ---- */
 
@@ -329,7 +330,7 @@ input {
 }
 
 .retrivedContent {
-    height: 400px;
+    height: 440px;
     overflow-y: auto;
     flex: 1;
     padding-right: 0.5rem;
