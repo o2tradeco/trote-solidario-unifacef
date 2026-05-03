@@ -94,7 +94,7 @@ const paginas = {
       "</table>" +
 
       "<div class='table-message'>" +
-      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "        <p class='p-car'>Acesse do computador para ver a tabela</p>" +
       "</div>" +
 
       "<p class='p-card'>Caso cada equipe cumpra sua meta, " +
@@ -164,7 +164,7 @@ const paginas = {
       "</table>" +
 
       "<div class='table-message'>" +
-      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "        <p class='p-car'>Acesse do computador para ver a tabela</p>" +
       "</div>" +
 
       "<p class='p-card'>Os alunos serão responsáveis pela " +
@@ -271,7 +271,7 @@ const paginas = {
       "</table>" +
 
       "<div class='table-message'>" +
-      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "        <p class='p-car'>Acesse do computador para ver a tabela</p>" +
       "</div>" +
 
       "<p class='p-card'>Caso cada equipe cumpra sua meta, " +
@@ -402,7 +402,7 @@ const paginas = {
       "</table>" +
 
       "<div class='table-message'>" +
-      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "        <p class='p-car'>Acesse do computador para ver a tabela</p>" +
       "</div>" +
 
       "<p class='p-card'>Os alunos serão responsáveis pela " +
@@ -496,7 +496,7 @@ const paginas = {
       "</table>" +
 
       "<div class='table-message'>" +
-      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "        <p class='p-car'>Acesse do computador para ver a tabela</p>" +
       "</div>" +
 
       "<p class='p-card'>Caso cada equipe cumpra sua meta, " +
@@ -602,7 +602,7 @@ const paginas = {
       "</table>" +
 
       "<div class='table-message'>" +
-      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "        <p class='p-car'>Acesse do computador para ver a tabela</p>" +
       "</div>" +
 
       "<p class='p-card'>Cada equipe deverá descrever um breve " +
@@ -716,7 +716,7 @@ const paginas = {
       "</table>" +
 
       "<div class='table-message'>" +
-      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "        <p class='p-car'>Acesse do computador para ver a tabela</p>" +
       "</div>" +
 
       "<p class='p-card'>A equipe deverá também preparar um vídeo de " +
@@ -803,7 +803,7 @@ const paginas = {
       "</table>" +
 
       "<div class='table-message'>" +
-      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "        <p class='p-car'>Acesse do computador para ver a tabela</p>" +
       "</div>" +
 
       "<p class='p-card'>A premiação desta prova se dará por " +
