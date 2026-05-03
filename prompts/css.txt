@@ -178,34 +178,19 @@ footer {
 /* ---- CUSTOM ---- */
 .success {
     background-color: #DFF6E0;
-    padding: 0.7rem 1.1rem;
-    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
     color: darkgreen;
     font-weight: bold;
 }
 
-.warning {
-    background-color: #fff3cd;
-    color: #664d03;
-    border: 1px solid #ffe69c;
-    padding: 0.7rem 1.1rem;
-    border-radius: 5px;
-}
-
 .info {
-    background-color: #cfe2ff;
-    border: 1px solid #9ec5fe;
-    color: #052c65;
-    padding: 0.7rem 1.1rem;
-    border-radius: 5px;
-}
-
-.danger {
-    background-color: #f8d7da;
-    color: #58151c;
-    border: 1px solid #f1aeb5;
-    padding: 0.7rem 1.1rem;
-    border-radius: 5px;
+    background-color: #cff4fc;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    /* color: darkgreen; */
+    border-left: 2px solid #344f8a;
+    /* font-weight: bold; */
 }
 /* ---- END ---- */
 
@@ -474,3 +459,71 @@ input {
         height: 2rem;
         background-color: red;
     }
+
+    /* Display */
+.d-flex {
+    display: flex;
+}
+
+/* Display Column */
+.d-flex-comun {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Justify Content */
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* Padding */
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+/* Margin */
+.m-auto {
+    margin: auto;
+}
+
+/* Text Align */
+.text-end {
+    display: flex;
+    justify-content: end;
+}
+
+/* Text */
+.text-link {
+    text-decoration: none;
+}
+
+.text-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.text-primary {
+    color: #1a0dab;;
+}
+
+.text-white {
+    color: white;
+}
+
+/* Unstyled List */
+ul {
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+
+/* Gap */
+.g-1 {
+    gap: 1rem;
+}
+
+.g-2 {
+    gap: 2rem;
+}

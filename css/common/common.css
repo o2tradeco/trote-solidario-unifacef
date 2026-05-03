@@ -52,7 +52,7 @@
 }
 
 /* Unstyled List */
-ul {
+footer ul {
     margin-block-start: 0;
     padding-inline-start: 0;
 }
