@@ -3,6 +3,12 @@
     display: flex;
 }
 
+@media (max-width: 1100px) {
+    .d-flex {
+        display: grid;
+    }
+}
+
 /* Display Column */
 .d-flex-comun {
     display: flex;
@@ -36,10 +42,24 @@
     margin-bottom: 1rem;
 }
 
+.mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* Text Align */
 .text-end {
     display: flex;
     justify-content: end;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Text */
@@ -72,6 +92,12 @@ footer ul {
 
 .g-2 {
     gap: 2rem;
+}
+
+@media (max-width: 1100px) {
+    .g-1, .g-2 {
+        gap: 1rem;
+    }
 }
 
 /* Width */

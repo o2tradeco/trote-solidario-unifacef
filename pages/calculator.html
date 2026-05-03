@@ -1,202 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-    <head>
-        <!-- Meta data -->
-        <meta charset="UTF-8">
-        <meta name="title" content="Trote solidário 2026">
-        <meta name="description" content="Trote solidário 2026">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS and statis files -->
-        <link rel="stylesheet" href="../css/styles.css" >
-        <link rel="stylesheet" href="../css/common/common.css" >
-        <!-- Google fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Sans&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        <!-- Icons -->
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="https://ava-grad.unifacef.com.br/pluginfile.php/1/core_admin/favicon/64x64/1707216088/unifacef.png" />
-        <!-- Title -->
-        <title>Trote solidário 2026</title>
-    </head>
-    <body>
-        <nav class="menu container">
-            <div class="nav-main">
-                <h1>Trote 2026</h1>
-                <div class="menu-itens">
-                    <a href="../index.html">Início</a>
-                    <a href="teams.html">Equipes</a>
-                    <a href="tasks.html">Provas</a>
-                    <a href="calculator.html">Calculadora</a>
-                </div>
+  <head>
+    <!-- Meta data -->
+    <meta charset="UTF-8" />
+    <meta name="title" content="Trote solidário 2026" />
+    <meta name="description" content="Trote solidário 2026" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS and statis files -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/common/common.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Sans&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://ava-grad.unifacef.com.br/pluginfile.php/1/core_admin/favicon/64x64/1707216088/unifacef.png"
+    />
+    <!-- Title -->
+    <title>Trote solidário 2026</title>
+  </head>
+  <body>
+    <nav class="menu container">
+      <div class="nav-main">
+        <h1>Trote 2026</h1>
+        <div class="menu-itens">
+          <a href="../index.html">Início</a>
+          <a href="teams.html">Equipes</a>
+          <a href="tasks.html">Provas</a>
+          <a href="calculator.html">Calculadora</a>
+        </div>
+      </div>
+    </nav>
+    <header class="container">
+      <div class="flex-column">
+        <div class="banner">
+          <h2>Calculadora de pontos</h2>
+          <!-- <em>"Colecionando memórias de solidariedade"</em> -->
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Múltiplos sections dentro do main -->
+      <section class="container">
+        <div class="card-body">
+          <div class="form center">
+            <div class="d-flex justify-content-between mb-1 gap-2">
+              <h2 class="h2-card form-header w-100">Simulação</h2>
+
+              <div class="dropdown w-100">
+                <select id="team" class="p-small b-1 bg-white">
+                  <option value="" disabled selected>Selecionar equipe</option>
+                  <option value="Amarela">Amarela</option>
+                  <option value="Bordo">Bordo</option>
+                  <option value="Cinza">Cinza</option>
+                  <option value="Laranja">Laranja</option>
+                  <option value="Preto">Preto</option>
+                  <option value="Rosa">Rosa</option>
+                  <option value="Roxo">Roxo</option>
+                  <option value="Verde">Verde</option>
+                  <option value="Vermelho">Vermelho</option>
+                </select>
+              </div>
             </div>
-        </nav>
-        <header class="container">
-            <div class="flex-column">
-                <div class="banner">
-                    <h2>Calculadora de pontos</h2>
-                    <!-- <em>"Colecionando memórias de solidariedade"</em> -->
+
+            <form>
+              <h3 class="h3-card form-header">Alimentos</h3>
+              <div>
+                <div class="form-group">
+                  <label for="qtdeArroz">Kit de alimentos</label>
+                  <input type="number" id="kit" name="qtdeKit" min="0" />
                 </div>
+                <div class="form-group">
+                  <label for="qtdeArro5">Arroz (5kg) - 10 pontos</label>
+                  <input
+                    type="number"
+                    id="qtdeArroz5"
+                    name="qtdeArroz"
+                    min="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="qtdeArroz1">Arroz (1kg) - 2 pontos</label>
+                  <input
+                    type="number"
+                    id="qtdeArroz1"
+                    name="qtdeArroz"
+                    min="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="qtdeFeijao2">Feijão (2kg) - 08 pontos</label>
+                  <input
+                    type="number"
+                    id="qtdeFeijao2"
+                    name="qtdeFeijao"
+                    min="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="qtdeFeijao1">Feijão (1kg) - 4 pontos</label>
+                  <input
+                    type="number"
+                    id="qtdeFeijao1"
+                    name="qtdeFeijao"
+                    min="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="qtdeArroz">Óleo de Soja (1L) - 04 pontos</label>
+                  <input type="number" id="qtdeOleo" name="qtdeOleo" min="0" />
+                </div>
+                <div class="form-group">
+                  <label for="qtdeFeijao"
+                    >Pacote Macarrão (500g) - 02 pontos</label
+                  >
+                  <input
+                    type="text"
+                    id="qtdeMacarrao"
+                    name="qtdeMacarrao"
+                    min="0"
+                  />
+                </div>
+              </div>
+
+              <h3 class="h3-card form-header">Suplementos</h3>
+              <div>
+                <div class="form-group">
+                  <label for="qtdeFeijao">Suplementos</label>
+                  <input
+                    type="number"
+                    id="suplemento"
+                    name="qtdeSuplemento"
+                    min="0"
+                  />
+                </div>
+              </div>
+
+              <h3 class="h3-card form-header">Leite</h3>
+              <div>
+                <div class="form-group">
+                  <label for="qtdeArroz">Leite 1L</label>
+                  <input type="number" id="leite" name="qtdeLeite" min="0" />
+                </div>
+              </div>
+
+              <h3 class="h3-card form-header">Doação de sangue</h3>
+              <div>
+                <div class="form-group">
+                  <label for="qtdeFeijao">Doação de sangue</label>
+                  <input type="number" id="sangue" name="qtdeSangue" min="0" />
+                </div>
+              </div>
+
+              <button
+                class="btn btn-primary"
+                type="button"
+                onclick="Calcular()"
+              >
+                <h4 class="my-0 mx-0">Calcular pontos</h4>
+              </button>
+            </form>
+            <div id="resultado" class="resultado">
+              <!-- O resultado da calculadora aparecerá aqui -->
+              <h4 class="mx-0 my-0 text-center">
+                Total de pontos: <span id="totalPontos">0</span> pontos
+              </h4>
             </div>
-        </header>
-        <main> <!-- Múltiplos sections dentro do main -->
-            <section class="container">
-                <div class="card-body">
-                    <div class="form center">
-
-                        <div class="d-flex justify-content-between mb-1 gap-2">
-                            <h2 class="h2-card form-header">
-                                Simulação
-                            </h2>
-
-                            <div class="dropdown w-50 text-end">
-                                <select id="team" class="p-small b-1 bg-white">
-                                    <option value="" disabled selected>Selecionar equipe</option>
-                                    <option value="Amarela">Amarela</option>
-                                    <option value="Bordo">Bordo</option>
-                                    <option value="Cinza">Cinza</option>
-                                    <option value="Laranja">Laranja</option>
-                                    <option value="Preto">Preto</option>
-                                    <option value="Rosa">Rosa</option>
-                                    <option value="Roxo">Roxo</option>
-                                    <option value="Verde">Verde</option>
-                                    <option value="Vermelho">Vermelho</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <form>
-                            <h3 class="h3-card form-header">
-                                Alimentos
-                            </h3>
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="qtdeArroz">Kit de alimentos</label>
-                                    <input type="number" id="kit" name="qtdeKit" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="qtdeArro5">Arroz (5kg) - 10 pontos</label>
-                                    <input type="number" id="qtdeArroz5" name="qtdeArroz" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="qtdeArroz1">Arroz (1kg) - 2 pontos</label>
-                                    <input type="number" id="qtdeArroz1" name="qtdeArroz" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="qtdeFeijao2">Feijão (2kg) - 08 pontos</label>
-                                    <input type="number" id="qtdeFeijao2" name="qtdeFeijao" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="qtdeFeijao1">Feijão (1kg) - 4 pontos</label>
-                                    <input type="number" id="qtdeFeijao1" name="qtdeFeijao" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="qtdeArroz">Óleo de Soja (1L) - 04 pontos</label>
-                                    <input type="number" id="qtdeOleo" name="qtdeOleo" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="qtdeFeijao">Pacote Macarrão (500g) - 02 pontos</label>
-                                    <input type="text" id="qtdeMacarrao" name="qtdeMacarrao" min="0">
-                                </div>
-                            </div>
-
-                            <h3 class="h3-card form-header">
-                                Suplementos
-                            </h3>
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="qtdeFeijao">Suplementos</label>
-                                    <input type="number" id="suplemento" name="qtdeSuplemento" min="0">
-                                </div>
-                            </div>
-
-                            <h3 class="h3-card form-header">
-                                Leite
-                            </h3>
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="qtdeArroz">Leite 1L</label>
-                                    <input type="number" id="leite" name="qtdeLeite" min="0">
-                                </div>
-                            </div>
-                            
-                            <h3 class="h3-card form-header">
-                                Doação de sangue
-                            </h3>
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="qtdeFeijao">Doação de sangue</label>
-                                    <input type="number" id="sangue" name="qtdeSangue" min="0">
-                                </div>
-                            </div>
-                            
-
-                            <button class="btn btn-primary" type="button" onclick="Calcular()">
-                                <h4 class="my-0 mx-0">
-                                    Calcular pontos
-                                </h4>
-                            </button>
-                        </form>
-                        <div id="resultado" class="resultado">
-                            <!-- O resultado da calculadora aparecerá aqui -->
-                            <h4 class="mx-0 my-0 text-center">
-                                Total de pontos: <span id="totalPontos">0</span> pontos
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </main>
-        <footer class="container">
-
-            <p class="d-flex justify-content-between">Centro Universitário Municipal de Franca
-                <a href="https://www.unifacef.com.br" class="text-link text-white" target="_blank">www.unifacef.com.br</a>
-            </p>
-            <ul class="d-flex g-2">
-                <li class="unstyle-list">
-                    <a href="index.html" class="text-link text-white">
-                        Início
-                    </a>
-                </li>
-                <li class="unstyle-list">
-                    <a href="pages/teams.html" class="text-link text-white">
-                        Equipes
-                    </a>
-                </li>
-                <li class="unstyle-list">
-                    <a href="pages/calculator.html" class="text-link text-white">
-                        Calculadora
-                    </a>
-                </li>
-                <li class="unstyle-list">
-                    <a href="pages/institucional.html" class="text-link text-white">
-                        Institucional
-                    </a>
-                </li>
-                <li class="unstyle-list">
-                    <a href="pages/faq.html" class="text-link text-white">
-                        Perguntas Frequentes
-                    </a>
-                </li>
-                <li class="unstyle-list">
-                    <a href="/" class="text-link text-white">
-                        Download PDF
-                    </a>
-                </li>
-            </ul>
-
-        </footer>
-        <!-- Import Js -->
-        <script src="../js/calculadora.js"></script>
-        <script src="../js/spinner.js"></script>
-    </body>
-    <style>
-        .card-body {
-            width: fit-content;
-            margin: -3rem auto 4rem auto;
-        }
-    </style>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container">
+      <p class="d-flex justify-content-between">
+        Centro Universitário Municipal de Franca
+        <a
+          href="https://www.unifacef.com.br"
+          class="text-link text-white"
+          target="_blank"
+          >www.unifacef.com.br</a
+        >
+      </p>
+      <ul class="d-flex g-2">
+        <li class="unstyle-list">
+          <a href="../index.html" class="text-link text-white"> Início </a>
+        </li>
+        <li class="unstyle-list">
+          <a href="teams.html" class="text-link text-white"> Equipes </a>
+        </li>
+        <li class="unstyle-list">
+          <a href="tasks.html" class="text-link text-white"> Provas </a>
+        </li>
+        <li class="unstyle-list">
+          <a href="calculator.html" class="text-link text-white">
+            Calculadora
+          </a>
+        </li>
+        <li class="unstyle-list">
+          <a href="institutional.html" class="text-link text-white">
+            Institucional
+          </a>
+        </li>
+        <li class="unstyle-list">
+          <a
+            href="../docs/regulamento-2026.pdf"
+            class="text-link text-white"
+            target="_blank"
+          >
+            Download PDF
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <!-- Import Js -->
+    <script src="../js/calculadora.js"></script>
+    <script src="../js/spinner.js"></script>
+  </body>
+  <style>
+    .card-body {
+      width: fit-content;
+      margin: -3rem auto 4rem auto;
+    }
+  </style>
 </html>

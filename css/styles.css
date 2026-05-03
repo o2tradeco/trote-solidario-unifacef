@@ -12,21 +12,9 @@ body {
     padding: 0.5rem 10rem;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
     .container {
-        padding: 0.5rem 2rem;
-    }
-}
-
-.row {
-    display: flex;
-    gap: 2rem;
-}
-
-@media (max-width: 500px) {
-    .row {
-        display: grid;
-        gap: 1rem;
+        padding: 0.5rem 1.5rem;
     }
 }
 
@@ -40,10 +28,6 @@ header {
     padding: 3rem 3rem 6rem 3rem;
     text-align: center;
     color: white;
-}
-
-hr {
-    color: lightgray;
 }
 
 table {
@@ -129,7 +113,7 @@ nav {
     border-bottom: 1px solid white;
 } 
 
-@media (max-width: 1400px) {
+@media (max-width: 1000px) {
     .menu-itens {
         display: inline-grid;
         gap: 0.7rem;
@@ -151,67 +135,14 @@ nav {
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
-.row .card-body {
-    width: 50%;
-    cursor: pointer;
-    border-left: 2px solid #344f8a;
-}
-
-.row .card-body:hover {
-    color: white !important;
-    background-color:  #344f8a;
-    /* border: unset; */
-}
-
-
-@media (max-width: 500px) {
-    .row .card-body {
-        width: unset;
-    }
-}
 /* ---- END ---- */
 
 /* ---- FOOTER ---- */
 footer {
     color: white;
     background-color: #344f8a;
-    /* display: none; */
+    font-size: 0.9rem !important;
 }
-/* ---- FOOTER ---- */
-
-/* ---- CUSTOM ---- */
-.success {
-    background-color: #DFF6E0;
-    padding: 0.7rem 1.1rem;
-    border-radius: 5px;
-    color: darkgreen;
-    font-weight: bold;
-}
-
-.warning {
-    background-color: #fff3cd;
-    color: #664d03;
-    border: 1px solid #ffe69c;
-    padding: 0.7rem 1.1rem;
-    border-radius: 5px;
-}
-
-.info {
-    background-color: #cfe2ff;
-    border: 1px solid #9ec5fe;
-    color: #052c65;
-    padding: 0.7rem 1.1rem;
-    border-radius: 5px;
-}
-
-.danger {
-    background-color: #f8d7da;
-    color: #58151c;
-    border: 1px solid #f1aeb5;
-    padding: 0.7rem 1.1rem;
-    border-radius: 5px;
-}
-/* ---- END ---- */
 
 /* ---- FAZER IMPLANTAÇÃO NO CSS ---- */
 .form {
@@ -221,16 +152,16 @@ footer {
     padding: 2rem;
 }
 
+@media (max-width: 1000px) {
+    .form {
+        padding: 0.5rem 0 !important;
+    }
+}
+
 .form-header {
     text-align: unset;
     margin-top: 0;
 
-}
-
-.form-grid {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    gap: 1rem;
 }
 
 .form-group {
@@ -261,55 +192,15 @@ input {
 
 .resultado {
     margin-top: 1rem;
-    background-color: antiquewhite;
+    background-color: white;
     border: 1px solid lightgray;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     border-left: 2px solid #007bff;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
-.mx-0 {
-    margin-left: 0;
-    margin-right: 0;
-}
-.my-0 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.timeline {
-    border-left: 2px solid #2a5298; /* borda à esquerda */
-    padding-left: 20px;
-    margin-top: 20px;
-}
-
-.evento {
-    margin-bottom: 25px; /* espaçamento fora da borda de 25px */
-    position: relative; /* move o elemento HTML sem alterar elementos ao lado */
-}
-
-.evento::before { /* cria elemento fantasma - aparece como primeiro elemento */
-    content: '';
-    width: 12px; /* largura da bolinha */
-    height: 12px; /* altura da bolinha */
-    background: #ff4b2b; /* fundo da bolinha */
-    border-radius: 50%; /* borda da bolinha */
-    position: absolute; /* posição atual do elemento */
-    left: -28px; /* desloca para esquerda */
-    top: 5px; /* desloca para cima */
-}
 /* ---- END ---- */
-
-@media (max-width: 1100px) {
-    .menu-itens {
-        display: none;
-    }
-}
 
 .nav-btn {
   display: flex;
@@ -332,7 +223,7 @@ input {
 
 /* posições laterais */
 .nav-btn.left {
-  left: 8.5rem; /* metade do botão → fica “metade pra fora” */
+  left: 8.5rem;
 }
 
 .nav-btn.right {
@@ -341,140 +232,9 @@ input {
 
 @media (max-width: 1100px) {
   .nav-btn.left {
-    left: 0.5rem; /* ajusta o botão esquerdo para ficar mais próximo da borda */
+    left: 0.5rem;
   }
   .nav-btn.right {
-    right: 0.5rem; /* ajusta o botão direito para ficar mais próximo da borda */
+    right: 0.5rem;
   }
 }
-
-.retrivedContent {
-    height: 440px;
-    overflow-y: auto;
-    flex: 1;
-    padding-right: 0.5rem;
-}
-
-
-/* Chrome / Edge / Safari */
-/* estado normal (escondida ou mínima) */
-.retrivedContent::-webkit-scrollbar {
-  width: 0px;
-}
-
-/* quando o usuário passa o mouse no container */
-.retrivedContent:hover::-webkit-scrollbar {
-  width: 6px;
-}
-
-.retrivedContent::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.retrivedContent::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.08);
-  border-radius: 10px;
-}
-
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
-  /* overflow-y: auto */
-}
-
-.modal.active {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-content {
-  background: #fff;
-  width: 80%;
-  border-radius: 20px;
-  overflow: hidden;
-
-  display: flex;
-  flex-direction: column;
-  max-height: 90vh;
-  padding: 20px;
-
-}
-
-/* 🔥 importante */
-.modal-body {
-  flex: 1;
-  overflow-y: auto;
-  min-height: 0;
-  padding-right: 10px;
-}
-
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.modal-header #btn-close {
-    cursor: pointer;
-    font-size: 1.5rem;
-    color: #333;
-}
-
-    .box-yellow {
-        width: 100%;
-        height: 2rem;
-        background-color: gold;
-    }
-
-    .box-gray {
-        width: 100%;
-        height: 2rem;
-        background-color: gray;
-    }
-
-    .box-orange {
-        width: 100%;
-        height: 2rem;
-        background-color: darkorange;
-    }
-
-    .box-rouge {
-        width: 100%;
-        height: 2rem;
-        background-color: darkred;
-    }
-
-    .box-black {
-        width: 100%;
-        height: 2rem;
-        background-color: black;
-    }
-
-    .box-pink {
-        width: 100%;
-        height: 2rem;
-        background-color: pink;
-    }
-
-    .box-purple {
-        width: 100%;
-        height: 2rem;
-        background-color: purple;
-    }
-
-    .box-green {
-        width: 100%;
-        height: 2rem;
-        background-color: green;
-    }
-
-    .box-red {
-        width: 100%;
-        height: 2rem;
-        background-color: red;
-    }
