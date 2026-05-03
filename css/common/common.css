@@ -19,6 +19,10 @@
     padding: 0;
 }
 
+.p-small {
+    padding: 0.5rem;
+}
+
 .p-1 {
     padding: 1rem;
 }
@@ -26,6 +30,10 @@
 /* Margin */
 .m-auto {
     margin: auto;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
 }
 
 /* Text Align */
@@ -65,3 +73,20 @@ footer ul {
 .g-2 {
     gap: 2rem;
 }
+
+/* Width */
+.w-50 {
+    width: 50%;
+}
+
+/* Border  */
+.b-1 {
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+}
+
+/* Background  */
+.bg-white {
+    background-color: white;
+}
+

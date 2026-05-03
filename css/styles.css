@@ -59,10 +59,14 @@ th, td {
 /* ---- END ---- */
 
 /* ---- TIPOGRAFIA ---- */
-h1, h2, h3, h4, p, ul, li, span, a, button, th, td, label, input {
+h1, h2, h3, h4, p, ul, li, span, a, button, th, td, label, input, select, option {
     font-family: "Ubuntu Sans Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+select, option {
+    font-size: 0.9rem !important;
 }
 
 h1 {
@@ -224,8 +228,8 @@ footer {
 }
 
 .form-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
     gap: 1rem;
 }
 

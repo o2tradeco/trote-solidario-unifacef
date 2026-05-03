@@ -1,13 +1,13 @@
 const paginas = {
   1: {
-    titulo: "O Trote Solidário",
+    titulo: "O trote solidário",
     conteudo:
       "<p class='p-card'>" +
       "A proposta para este ano são ações voltadas à comunidade, desde o ingresso do estudante na IES. As dinâmicas do Trote Solidário serão desenvolvidas em 2 Etapas, com premiação em cada prova. Desse modo, para cada prova haverá medalhas para as equipes vencedoras em 1º, 2º e 3º lugar.<br><br>" +
 
       "Ressalta-se que as provas “Memórias Uni-FACEF”, “Álbum de Figurinhas Uni-FACEF” e “Ação em entidades Sociais” concederão uma medalha de honra ao mérito a cada uma das equipes que realizarem a tarefa proposta neste presente regulamento.<br><br>" +
 
-      "A 1ª etapa se refere a “Gincana Solidária”, na qual os alunos serão divididos por departamento para cumprir as provas desta gincana. Contamos com 07 provas nesta etapa.<br><br>" +
+      "A 1ª etapa se refere a “Gincana Solidária”, na qual os alunos serão divididos por departamento para cumprir as provas desta gincana. Contamos com <a class='text-link text-primary' href='pages/tasks.html'> 07 provas</a> nesta etapa.<br><br>" +
 
       "A 2ª etapa se refere à “Noite de Encerramento”, com algumas Gincanas, a Apresentação da Ação Social e a Apresentação Cultural. Além da divulgação dos resultados da Primeira Prova, as equipes serão avaliadas por Gincanas e Provas na noite, em busca de fortalecer o compromisso do Uni-FACEF com o Trote Solidário 2026." +
       "</p>"

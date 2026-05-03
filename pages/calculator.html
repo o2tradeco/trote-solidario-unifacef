@@ -36,7 +36,7 @@
         <header class="container">
             <div class="flex-column">
                 <div class="banner">
-                    <h2>Calculadora</h2>
+                    <h2>Calculadora de pontos</h2>
                     <!-- <em>"Colecionando memórias de solidariedade"</em> -->
                 </div>
             </div>
@@ -45,61 +45,53 @@
             <section class="container">
                 <div class="card-body">
                     <div class="form center">
-                        <h2 class="h2-card form-header">
-                            Calculadora de pontos
-                        </h2>
-                        <div class="dropdown">
-                            <label for="colors">Selecionar equipe</label>
-                            <select id="colors">
-                                <option value="yellow">Amarela</option>
-                                <option value="gray">Cinza</option>
-                                <option value="orange">Laranja</option>
-                                <option value="rouge">Bordo</option>
-                                <option value="black">Preto</option>
-                                <option value="pink">Rosa</option>
-                                <option value="purple">Roxo</option>
-                                <option value="green">Verde</option>
-                                <option value="red">Vermelho</option>
-                            </select>
+
+                        <div class="d-flex justify-content-between mb-1 gap-2">
+                            <h2 class="h2-card form-header">
+                                Simulação
+                            </h2>
+
+                            <div class="dropdown w-50 text-end">
+                                <select id="team" class="p-small b-1 bg-white">
+                                    <option value="" disabled selected>Selecionar equipe</option>
+                                    <option value="Amarela">Amarela</option>
+                                    <option value="Bordo">Bordo</option>
+                                    <option value="Cinza">Cinza</option>
+                                    <option value="Laranja">Laranja</option>
+                                    <option value="Preto">Preto</option>
+                                    <option value="Rosa">Rosa</option>
+                                    <option value="Roxo">Roxo</option>
+                                    <option value="Verde">Verde</option>
+                                    <option value="Vermelho">Vermelho</option>
+                                </select>
+                            </div>
                         </div>
-                        <h3 class="h3-card form-header">
-                            Simulação de metas batidas
-                        </h3>
+
                         <form>
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="qtdeArroz">Kit alimentos (60 kits)</label>
-                                    <input type="number" id="qtdeKit" name="qtdeKit" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="qtdeFeijao">Suplemento (30 latas)</label>
-                                    <input type="number" id="qtdeSuplemento" name="qtdeSuplemento" min="0">
-                                </div>
-                            </div>
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="qtdeArroz">Leite 1L (60 caixas)</label>
-                                    <input type="number" id="qtdeLeite" name="qtdeLeite" min="0">
-                                </div>
-                                <div class="form-group">
-                                    <label for="qtdeFeijao">Doação de sangue (30 doações)</label>
-                                    <input type="number" id="qtdeSangue" name="qtdeSangue" min="0">
-                                </div>
-                            </div>
                             <h3 class="h3-card form-header">
-                                Simulação intens avulsos
+                                Alimentos
                             </h3>
                             <div class="form-grid">
                                 <div class="form-group">
-                                    <label for="qtdeArroz">Arroz (5kg) - 10 pontos</label>
-                                    <input type="number" id="qtdeArroz" name="qtdeArroz" min="0">
+                                    <label for="qtdeArroz">Kit de alimentos</label>
+                                    <input type="number" id="kit" name="qtdeKit" min="0">
                                 </div>
                                 <div class="form-group">
-                                    <label for="qtdeFeijao">Feijão (2kg) - 08 pontos</label>
-                                    <input type="number" id="qtdeFeijao" name="qtdeFeijao" min="0">
+                                    <label for="qtdeArro5">Arroz (5kg) - 10 pontos</label>
+                                    <input type="number" id="qtdeArroz5" name="qtdeArroz" min="0">
                                 </div>
-                            </div>
-                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="qtdeArroz1">Arroz (1kg) - 2 pontos</label>
+                                    <input type="number" id="qtdeArroz1" name="qtdeArroz" min="0">
+                                </div>
+                                <div class="form-group">
+                                    <label for="qtdeFeijao2">Feijão (2kg) - 08 pontos</label>
+                                    <input type="number" id="qtdeFeijao2" name="qtdeFeijao" min="0">
+                                </div>
+                                <div class="form-group">
+                                    <label for="qtdeFeijao1">Feijão (1kg) - 4 pontos</label>
+                                    <input type="number" id="qtdeFeijao1" name="qtdeFeijao" min="0">
+                                </div>
                                 <div class="form-group">
                                     <label for="qtdeArroz">Óleo de Soja (1L) - 04 pontos</label>
                                     <input type="number" id="qtdeOleo" name="qtdeOleo" min="0">
@@ -109,7 +101,39 @@
                                     <input type="text" id="qtdeMacarrao" name="qtdeMacarrao" min="0">
                                 </div>
                             </div>
-                            <button class="btn btn-primary" type="button" onclick="calcular()">
+
+                            <h3 class="h3-card form-header">
+                                Suplementos
+                            </h3>
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="qtdeFeijao">Suplementos</label>
+                                    <input type="number" id="suplemento" name="qtdeSuplemento" min="0">
+                                </div>
+                            </div>
+
+                            <h3 class="h3-card form-header">
+                                Leite
+                            </h3>
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="qtdeArroz">Leite 1L</label>
+                                    <input type="number" id="leite" name="qtdeLeite" min="0">
+                                </div>
+                            </div>
+                            
+                            <h3 class="h3-card form-header">
+                                Doação de sangue
+                            </h3>
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="qtdeFeijao">Doação de sangue</label>
+                                    <input type="number" id="sangue" name="qtdeSangue" min="0">
+                                </div>
+                            </div>
+                            
+
+                            <button class="btn btn-primary" type="button" onclick="Calcular()">
                                 <h4 class="my-0 mx-0">
                                     Calcular pontos
                                 </h4>
@@ -118,12 +142,13 @@
                         <div id="resultado" class="resultado">
                             <!-- O resultado da calculadora aparecerá aqui -->
                             <h4 class="mx-0 my-0 text-center">
-                                Total de pontos: <span id="totalHoras">0</span> pontos
+                                Total de pontos: <span id="totalPontos">0</span> pontos
                             </h4>
                         </div>
                     </div>
                 </div>
             </section>
+
         </main>
         <footer class="container">
 
