@@ -238,3 +238,20 @@ input {
     right: 0.5rem;
   }
 }
+
+.table-message {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    table {
+        display: none;
+    }
+
+    .table-message {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        font-size: 16px;
+    }
+}

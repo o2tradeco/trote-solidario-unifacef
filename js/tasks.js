@@ -93,6 +93,10 @@ const paginas = {
       "    </tbody>" +
       "</table>" +
 
+      "<div class='table-message'>" +
+      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "</div>" +
+
       "<p class='p-card'>Caso cada equipe cumpra sua meta, " +
       "obterá uma pontuação final de 5.000 pontos. Reforçamos " +
       "que as metas estão estruturadas de forma proporcional a " +
@@ -158,6 +162,10 @@ const paginas = {
       "        </tr>" +
       "    </tbody>" +
       "</table>" +
+
+      "<div class='table-message'>" +
+      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "</div>" +
 
       "<p class='p-card'>Os alunos serão responsáveis pela " +
       "arrecadação, controle, armazenamento prévio e entrega " +
@@ -261,6 +269,10 @@ const paginas = {
       "        </tr>" +
       "    </tbody>" +
       "</table>" +
+
+      "<div class='table-message'>" +
+      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "</div>" +
 
       "<p class='p-card'>Caso cada equipe cumpra sua meta, " +
       "obterá uma pontuação final de 5.000 pontos. Reforçamos " +
@@ -389,6 +401,10 @@ const paginas = {
       "    </tr>" +
       "</table>" +
 
+      "<div class='table-message'>" +
+      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "</div>" +
+
       "<p class='p-card'>Os alunos serão responsáveis pela " +
       "arrecadação, controle, armazenamento prévio e entrega " +
       "dos itens arrecadados. O representante da turma " +
@@ -478,6 +494,10 @@ const paginas = {
       "        <td>5000 pontos</td>" +
       "    </tr>" +
       "</table>" +
+
+      "<div class='table-message'>" +
+      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "</div>" +
 
       "<p class='p-card'>Caso cada equipe cumpra sua meta, " +
       "obterá uma pontuação final de 5.000 pontos. Reforçamos " +
@@ -580,6 +600,10 @@ const paginas = {
       "    </tr>" +
       "  </tbody>" +
       "</table>" +
+
+      "<div class='table-message'>" +
+      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "</div>" +
 
       "<p class='p-card'>Cada equipe deverá descrever um breve " +
       "relato sobre cada um dos registros apresentados, " +
@@ -691,6 +715,10 @@ const paginas = {
       "  </tbody>" +
       "</table>" +
 
+      "<div class='table-message'>" +
+      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "</div>" +
+
       "<p class='p-card'>A equipe deverá também preparar um vídeo de " +
       "até 90 segundos, para apresentação na Noite de Encerramento. " +
       "Este vídeo deve apresentar as atividades realizadas nesta ação " +
@@ -773,6 +801,10 @@ const paginas = {
       "    </tr>" +
       "  </tbody>" +
       "</table>" +
+
+      "<div class='table-message'>" +
+      "        <p class='p-car'>Acesse de computador para ver a tabela</p>" +
+      "</div>" +
 
       "<p class='p-card'>A premiação desta prova se dará por " +
       "meio do cumprimento da tarefa. Todas as equipes que " +
