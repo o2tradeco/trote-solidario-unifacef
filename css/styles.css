@@ -43,7 +43,8 @@ th, td {
 /* ---- END ---- */
 
 /* ---- TIPOGRAFIA ---- */
-h1, h2, h3, h4, p, ul, li, span, a, button, th, td, label, input, select, option {
+h1, h2, h3, h4, p, ul, li, span, a, button, th, td, label, 
+input, select, option {
     font-family: "Ubuntu Sans Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
@@ -77,7 +78,6 @@ h1 {
 .unstyle-list {
     list-style: none;
 }
-
 /* ---- END ---- */
 
 /* ---- MENU ---- */
@@ -134,7 +134,6 @@ nav {
     margin: -3rem 0 4rem 0;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
-
 /* ---- END ---- */
 
 /* ---- FOOTER ---- */
@@ -143,8 +142,9 @@ footer {
     background-color: #344f8a;
     font-size: 0.9rem !important;
 }
+/* ---- END ---- */
 
-/* ---- FAZER IMPLANTAÇÃO NO CSS ---- */
+/* ---- FORM ---- */
 .form {
     display: flex;
     flex-direction: column;
@@ -199,9 +199,9 @@ input {
     border-left: 2px solid #007bff;
     font-size: 1.1rem;
 }
-
 /* ---- END ---- */
 
+/* ---- NAV-BTN ---- */
 .nav-btn {
   display: flex;
   align-items: center;
@@ -221,7 +221,6 @@ input {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
-/* posições laterais */
 .nav-btn.left {
   left: 8.5rem;
 }
@@ -238,7 +237,9 @@ input {
     right: 0.5rem;
   }
 }
+/* ---- END ---- */
 
+/* ---- TABLE-MESSAGE ---- */
 .table-message {
     display: none;
 }
@@ -255,3 +256,4 @@ input {
         font-size: 16px;
     }
 }
+/* ---- END ---- */
