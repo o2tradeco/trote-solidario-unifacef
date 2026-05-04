@@ -1,7 +1,6 @@
 ## Elementos HTML
 
 ## Elementos CSS
-```html
 <table>
     <thead>
         <tr>
@@ -184,5 +183,5 @@ arredondamento de bordas.</td>
         </tr>
     </tbody>
 </table>
-```
+
 ## Elementos JavaScript
