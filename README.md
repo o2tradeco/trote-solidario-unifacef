@@ -349,3 +349,106 @@ arredondamento de bordas.</td>
 </table>
 
 ## Elementos JavaScript
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Propriedades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Number</td>
+      <td>Converte uma string em um número.</td>
+    </tr>
+    <tr>
+      <td>String</td>
+      <td>Converte um valor em uma string.</td>
+    </tr>
+    <tr>
+      <td>document.getElementById</td>
+      <td>Seleciona um elemento do DOM pelo seu ID.</td>
+    </tr>
+    <tr>
+      <td>console.log</td>
+      <td>Exibe mensagens no console de depuração.</td>
+    </tr>
+    <tr>
+      <td>alert</td>
+      <td>Muestra uma caixa de alerta com uma mensagem.</td>
+    </tr>
+    <tr>
+      <td>if...else</td>
+      <td>Estrutura condicional que executa um bloco de código se a condição for verdadeira, caso contrário, outro bloco é executado.</td>
+    </tr>
+    <tr>
+      <td>for...in</td>
+      <td>Ciclo que itera sobre as propriedades enumeráveis de um objeto.</td>
+    </tr>
+    <tr>
+      <td>Number()</td>
+      <td>Converte uma string em um número.</td>
+    </tr>
+    <tr>
+      <td>String()</td>
+      <td>Converte um valor em uma string.</td>
+    </tr>
+    <tr>
+      <td>document.getElementById</td>
+      <td>Seleciona um elemento do DOM pelo seu ID.</td>
+    </tr>
+    <tr>
+      <td>Number()</td>
+      <td>Converte uma string em um número.</td>
+    </tr>
+    <tr>
+      <td>TotalAvulco</td>
+      <td>Cálcula os pontos de itens avulsos com base na quantidade e valor de cada item.</td>
+    </tr>
+    <tr>
+      <td>TotalProva</td>
+      <td>Cálcula os pontos de uma prova com base no valor, alvo e referência.</td>
+    </tr>
+    <tr>
+      <td>paginas</td>
+      <td>Objeto que contém as informações das páginas do aplicativo.</td>
+    </tr>
+    <tr>
+      <td>atualizar</td>
+      <td>Atualiza o conteúdo da página com base no índice atual.</td>
+    </tr>
+    <tr>
+      <td>anterior</td>
+      <td>Muda para a página anterior.</td>
+    </tr>
+    <tr>
+      <td>proximo</td>
+      <td>Muda para a próxima página.</td>
+    </tr>
+    <tr>
+      <td>DOMContentLoaded</td>
+      <td>Evento que é disparado quando o DOM está completamente carregado e analisado.</td>
+    </tr>
+    <tr>
+      <td>createElement</td>
+      <td>Cria um novo elemento do DOM.</td>
+    </tr>
+    <tr>
+      <td>innerHTML</td>
+      <td>Define ou retorna o conteúdo HTML de um elemento.</td>
+    </tr>
+    <tr>
+      <td>style</td>
+      <td>Atributo que permite definir estilos CSS diretamente em elementos do DOM.</td>
+    </tr>
+    <tr>
+      <td>appendChild</td>
+      <td>Adiciona um nó como filho de um determinado nó pai.</td>
+    </tr>
+    <tr>
+      <td>setTimeout</td>
+      <td>Executa uma função após um determinado tempo em milissegundos.</td>
+    </tr>
+  </tbody>
+</table>
