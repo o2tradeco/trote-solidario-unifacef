@@ -7,6 +7,7 @@ Analise o código e gere documentação seguindo este formato:
 1. Faça uma tabela em HTML que mostre em uma coluna o elemento usado e na outra coluna explique sobre o elemento.
 2. Não repita elementos.
 3. Retorne apenas com a tabela em html e suas pertinências.
+4. Não inclua a representação da tag quando for o caso, exemplo: <p>, retorne apenas com p.
 4. O o titulo da primeira coluna é Elemento e da segunda coluna Propriedades.
 """
 

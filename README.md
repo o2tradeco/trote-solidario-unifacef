@@ -9,105 +9,216 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>&lt;!doctype html&gt;</code></td>
-      <td>Especifica o tipo de documento HTML5.</td>
+      <td>meta charset="UTF-8"</td>
+      <td>Especifica o conjunto de caracteres usado no documento.</td>
     </tr>
     <tr>
-      <td><code>&lt;html lang="pt-BR"&gt;</code></td>
-      <td>Define a linguagem do conteúdo como português (Brasil).</td>
+      <td>meta name="title" content="Trote solidário 2026"</td>
+      <td>Define o título da página que aparece na aba do navegador.</td>
     </tr>
     <tr>
-      <td><code>&lt;head&gt;</code></td>
-      <td>Contém metadados e referências externas para o documento.</td>
+      <td>meta name="description" content="Trote solidário 2026"</td>
+      <td>Fornece uma breve descrição da página, usada por motores de busca.</td>
     </tr>
     <tr>
-      <td><code>&lt;meta charset="UTF-8"&gt;</code></td>
-      <td>Especifica a codificação de caracteres como UTF-8.</td>
+      <td>meta name="viewport" content="width=device-width, initial-scale=1.0"</td>
+      <td>Especifica como a página deve ser exibida em dispositivos móveis.</td>
     </tr>
     <tr>
-      <td><code>&lt;meta name="title" content="Trote solidário 2026"&gt;</code></td>
-      <td>Define o título da página para motores de busca e navegadores.</td>
+      <td>link rel="stylesheet" href="./css/styles.css"</td>
+      <td>Inclui um arquivo CSS externo para estilizar o documento.</td>
     </tr>
     <tr>
-      <td><code>&lt;meta name="description" content="Trote solidário 2026"&gt;</code></td>
-      <td>Fornece uma breve descrição da página para motores de busca.</td>
+      <td>link rel="stylesheet" href="./css/common/common.css"</td>
+      <td>Inclui outro arquivo CSS externo com estilos comuns.</td>
     </tr>
     <tr>
-      <td><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></td>
-      <td>Melhora a exibição em dispositivos móveis.</td>
+      <td>link rel="preconnect" href="https://fonts.googleapis.com"</td>
+      <td>Estabelece uma conexão prévia com um servidor de fontes para melhorar o carregamento das fontes.</td>
     </tr>
     <tr>
-      <td><code>&lt;link rel="stylesheet" href="./css/styles.css"&gt;</code></td>
-      <td>Linka um arquivo CSS para estilizar o documento.</td>
+      <td>link rel="preconnect" href="https://fonts.gstatic.com" crossorigin</td>
+      <td>Especifica que a conexão pode ser usada por qualquer origem (cross-origin).</td>
     </tr>
     <tr>
-      <td><code>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</code></td>
-      <td>Estabelece uma conexão prévia com um servidor de fontes.</td>
+      <td>link 
+href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu+Monhref="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&faily=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"</td>
+      <td>Inclui uma folha de estilos CSS com fontes externas.</td>
     </tr>
     <tr>
-      <td><code>&lt;link 
-href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu+Mono:ital,whref="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&amily=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"&gt;</code></td>
-      <td>Linka uma fonte Google para uso no documento.</td>
+      <td>link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"</td>
+      <td>Inclui uma folha de estilos CSS com ícones Material Symbols Outlined.</td>
     </tr>
     <tr>
-      <td><code>&lt;link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"&gt;</code></td>
-      <td>Linka um conjunto de ícones Material Symbols para uso no documento.</td>
+      <td>link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"</td>
+      <td>Inclui uma folha de estilos CSS com ícones do Bootstrap Icons.</td>
     </tr>
     <tr>
-      <td><code>&lt;link rel="shortcut icon" 
-href="https://ava-grad.unifacef.com.br/pluginfile.php/1/core_admin/favicon/64x64/1707216088/unifacef.png"&gt;</code></td>
-      <td>Especifica o ícone da página.</td>
+      <td>link rel="shortcut icon" 
+href="https://ava-grad.unifacef.com.br/pluginfile.php/1/core_admin/favicon/64x64/1707216088/unifacef.png"</td>
+      <td>Especifica o ícone de favoritos para a página.</td>
     </tr>
     <tr>
-      <td><code>&lt;title&gt;</code></td>
-      <td>Define o título exibido na aba do navegador.</td>
+      <td>title</td>
+      <td>Define o título da página que aparece na aba do navegador.</td>
     </tr>
     <tr>
-      <td><code>&lt;nav class="menu container"&gt;</code></td>
-      <td>Cria uma barra de navegação com a classe "menu" e "container".</td>
+      <td>nav class="menu container"</td>
+      <td>Cria uma barra de navegação com um contêiner para organizar o conteúdo.</td>
     </tr>
     <tr>
-      <td><code>&lt;div class="nav-main"&gt;</code></td>
-      <td>Contém o conteúdo principal da barra de navegação.</td>
+      <td>div class="nav-main"</td>
+      <td>Define a área principal da barra de navegação.</td>
     </tr>
     <tr>
-      <td><code>&lt;a href="index.html"&gt;</code></td>
+      <td>h1</td>
+      <td>Cria um título de nível 1 para o conteúdo principal.</td>
+    </tr>
+    <tr>
+      <td>div class="menu-itens"</td>
+      <td>Define uma lista de itens na barra de navegação.</td>
+    </tr>
+    <tr>
+      <td>a href="index.html"</td>
       <td>Cria um link para a página inicial.</td>
     </tr>
     <tr>
-      <td><code>&lt;header class="container"&gt;</code></td>
-      <td>Define o cabeçalho da página com a classe "container".</td>
-    </tr>
-    <tr>
-      <td><code>&lt;section class="container"&gt;</code></td>
-      <td>Cria uma seção do conteúdo principal com a classe "container".</td>
-    </tr>
-    <tr>
-      <td><code>&lt;button class="nav-btn left" onclick="anterior()"&gt;</code></td>
-      <td>Cria um botão para navegar para o conteúdo anterior.</td>
-    </tr>
-    <tr>
-      <td><code>&lt;div class="card-body"&gt;</code></td>
-      <td>Define o corpo de uma cartão com a classe "card-body".</td>
-    </div>
-    <tr>
-      <td><code>&lt;a href="pages/teams.html" class="text-link text-primary text-end"&gt;</code></td>
+      <td>a href="pages/teams.html"</td>
       <td>Cria um link para a página de equipes.</td>
     </tr>
     <tr>
-      <td><code>&lt;footer class="container"&gt;</code></td>
-      <td>Define o rodapé da página com a classe "container".</td>
+      <td>a href="pages/tasks.html"</td>
+      <td>Cria um link para a página de provas.</td>
     </tr>
     <tr>
-      <td><code>&lt;a href="https://www.unifacef.com.br" class="text-link text-white" target="_blank"&gt;</code></td>
-      <td>Cria um link para o site da Uni-FACEF em uma nova aba.</td>
+      <td>a href="pages/calculator.html"</td>
+      <td>Cria um link para a página da calculadora.</td>
     </tr>
     <tr>
-      <td><code>&lt;script src="./js/content.js"&gt;</code></td>
-      <td>Inclui um arquivo JavaScript para funcionalidades adicionais.</td>
+      <td>header class="container"</td>
+      <td>Cria o cabeçalho do documento com um contêiner para organizar o conteúdo.</td>
     </tr>
-  </tbody>
-</table>
+    <tr>
+      <td>div class="flex-column"</td>
+      <td>Define uma coluna flexível dentro do cabeçalho.</td>
+    </tr>
+    <tr>
+      <td>div class="banner"</td>
+      <td>Cria um banner para o conteúdo principal.</td>
+    </tr>
+    <tr>
+      <td>h2</td>
+      <td>Cria um título de nível 2 para o conteúdo do banner.</td>
+    </tr>
+    <tr>
+      <td>em</td>
+      <td>Especifica ênfase no texto, geralmente itálico.</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>Cria a seção principal do conteúdo do documento.</td>
+    </tr>
+    <tr>
+      <td>section class="container" style="position: relative"</td>
+      <td>Cria uma seção com um contêiner e estilo relativo para posicionamento.</td>
+    </tr>
+    <tr>
+      <td>button class="nav-btn left" onclick="anterior()"</td>
+      <td>Cria um botão de navegação para a página anterior.</td>
+    </tr>
+    <tr>
+      <td>span class="material-symbols-outlined"</td>
+      <td>Especifica um ícone do Material Symbols Outlined.</td>
+    </tr>
+    <tr>
+      <td>div class="card-body" style="display: flex; align-items: center"</td>
+      <td>Cria um corpo de cartão com estilo para alinhamento centralizado.</td>
+    </tr>
+    <tr>
+      <td>div class="retrivedContent"</td>
+      <td>Define a área onde o conteúdo será exibido dinamicamente.</td>
+    </tr>
+    <tr>
+      <td>h2 id="contentTitle"</td>
+      <td>Cria um título de nível 2 para o conteúdo dinâmico.</td>
+    </tr>
+    <tr>
+      <td>div id="contentDescription"</td>
+      <td>Define uma área para a descrição do conteúdo dinâmico.</td>
+    </tr>
+    <tr>
+      <td>button class="nav-btn right" onclick="proximo()"</td>
+      <td>Cria um botão de navegação para a próxima página.</td>
+    </tr>
+    <tr>
+      <td>section class="container"</td>
+      <td>Cria uma seção com um contêiner para organizar o conteúdo.</td>
+    </tr>
+    <tr>
+      <td>div class="card-body"</td>
+      <td>Cria um corpo de cartão para o conteúdo da seção.</td>
+    </tr>
+    <tr>
+      <td>h2 class="h2-card"</td>
+      <td>Cria um título de nível 2 com uma classe específica.</td>
+    </tr>
+    <tr>
+      <td>p class="p-card"</td>
+      <td>Cria um parágrafo com uma classe específica.</td>
+    </tr>
+    <tr>
+      <td>a href="pages/teams.html" class="text-link text-primary text-end"</td>
+      <td>Cria um link para a página de equipes com estilos específicos.</td>
+    </tr>
+    <tr>
+      <td>footer class="container"</td>
+      <td>Cria o rodapé do documento com um contêiner para organizar o conteúdo.</td>
+    </tr>
+    <tr>
+      <td>p class="d-flex justify-content-between"</td>
+      <td>Cria um parágrafo com estilo flexível e alinhamento entre os itens.</td>
+    </tr>
+    <tr>
+      <td>ul class="d-flex g-2"</td>
+      <td>Cria uma lista não ordenada com estilo flexível e espaçamento entre os itens.</td>
+    </tr>
+    <tr>
+      <td>li class="unstyle-list"</td>
+      <td>Cria um item de lista sem estilos padrão.</td>
+    </tr>
+    <tr>
+      <td>a href="index.html" class="text-link text-white"</td>
+      <td>Cria um link para a página inicial com estilos específicos.</td>
+    </tr>
+    <tr>
+      <td>a href="pages/teams.html" class="text-link text-white"</td>
+      <td>Cria um link para a página de equipes com estilos específicos.</td>
+    </tr>
+    <tr>
+      <td>a href="pages/tasks.html" class="text-link text-white"</td>
+      <td>Cria um link para a página de provas com estilos específicos.</td>
+    </tr>
+    <tr>
+      <td>a href="pages/calculator.html" class="text-link text-white"</td>
+      <td>Cria um link para a página da calculadora com estilos específicos.</td>
+    </tr>
+    <tr>
+      <td>a href="pages/institutional.html" class="text-link text-white"</td>
+      <td>Cria um link para a página institucional com estilos específicos.</td>
+    </tr>
+    <tr>
+      <td>a href="docs/regulamento-2026.pdf" class="text-link text-white" target="_blank"</td>
+      <td>Cria um link para o download do regulamento em PDF com estilos específicos e abertura em nova aba.</td>
+    </tr>
+    <tr>
+      <td>script src="./js/content.js"</td>
+      <td>Inclui um arquivo JavaScript para manipulação dinâmica do conteúdo.</td>
+    </tr>
+    <tr>
+      <td>script src="./js/content.js"</td>
+      <td>Inclui um arquivo JavaScript para manipulação dinâmica do conteúdo.</td>
+    </tr>
+  </table>
 
 
 ## Elementos CSS
