@@ -33,32 +33,6 @@
       <td>Inclui outro arquivo CSS externo com estilos comuns.</td>
     </tr>
     <tr>
-      <td>link rel="preconnect" href="https://fonts.googleapis.com"</td>
-      <td>Estabelece uma conexão prévia com um servidor de fontes para melhorar o carregamento das fontes.</td>
-    </tr>
-    <tr>
-      <td>link rel="preconnect" href="https://fonts.gstatic.com" crossorigin</td>
-      <td>Especifica que a conexão pode ser usada por qualquer origem (cross-origin).</td>
-    </tr>
-    <tr>
-      <td>link 
-href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu+Monhref="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&faily=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"</td>
-      <td>Inclui uma folha de estilos CSS com fontes externas.</td>
-    </tr>
-    <tr>
-      <td>link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"</td>
-      <td>Inclui uma folha de estilos CSS com ícones Material Symbols Outlined.</td>
-    </tr>
-    <tr>
-      <td>link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"</td>
-      <td>Inclui uma folha de estilos CSS com ícones do Bootstrap Icons.</td>
-    </tr>
-    <tr>
-      <td>link rel="shortcut icon" 
-href="https://ava-grad.unifacef.com.br/pluginfile.php/1/core_admin/favicon/64x64/1707216088/unifacef.png"</td>
-      <td>Especifica o ícone de favoritos para a página.</td>
-    </tr>
-    <tr>
       <td>title</td>
       <td>Define o título da página que aparece na aba do navegador.</td>
     </tr>
@@ -185,38 +159,6 @@ href="https://ava-grad.unifacef.com.br/pluginfile.php/1/core_admin/favicon/64x64
     <tr>
       <td>li class="unstyle-list"</td>
       <td>Cria um item de lista sem estilos padrão.</td>
-    </tr>
-    <tr>
-      <td>a href="index.html" class="text-link text-white"</td>
-      <td>Cria um link para a página inicial com estilos específicos.</td>
-    </tr>
-    <tr>
-      <td>a href="pages/teams.html" class="text-link text-white"</td>
-      <td>Cria um link para a página de equipes com estilos específicos.</td>
-    </tr>
-    <tr>
-      <td>a href="pages/tasks.html" class="text-link text-white"</td>
-      <td>Cria um link para a página de provas com estilos específicos.</td>
-    </tr>
-    <tr>
-      <td>a href="pages/calculator.html" class="text-link text-white"</td>
-      <td>Cria um link para a página da calculadora com estilos específicos.</td>
-    </tr>
-    <tr>
-      <td>a href="pages/institutional.html" class="text-link text-white"</td>
-      <td>Cria um link para a página institucional com estilos específicos.</td>
-    </tr>
-    <tr>
-      <td>a href="docs/regulamento-2026.pdf" class="text-link text-white" target="_blank"</td>
-      <td>Cria um link para o download do regulamento em PDF com estilos específicos e abertura em nova aba.</td>
-    </tr>
-    <tr>
-      <td>script src="./js/content.js"</td>
-      <td>Inclui um arquivo JavaScript para manipulação dinâmica do conteúdo.</td>
-    </tr>
-    <tr>
-      <td>script src="./js/content.js"</td>
-      <td>Inclui um arquivo JavaScript para manipulação dinâmica do conteúdo.</td>
     </tr>
   </table>
 
