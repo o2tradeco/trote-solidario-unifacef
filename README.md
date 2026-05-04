@@ -452,3 +452,98 @@ arredondamento de bordas.</td>
     </tr>
   </tbody>
 </table>
+
+### function Calcular()
+
+O código apresentado é uma função JavaScript que calcula o total 
+de pontos para uma equipe com base em várias provas e itens 
+avulcos. A função `Calcular()` é responsável por obter os dados 
+dos usuários, realizar cálculos e exibir o resultado na página. 
+As funções auxiliares `TotalAvulco()` e `TotalProva()` são 
+usadas para calcular pontos específicos.
+
+### Estrutura
+
+A estrutura do código é organizada da seguinte forma:
+
+1. **Função Principal (`Calcular`)**:
+   - Exibe uma mensagem de "Calculando pontos..." no console.
+   - Obtém a equipe selecionada pelo usuário e verifica se foi 
+escolhida corretamente.
+   - Calcula os pontos para as provas 1 e 2 da equipe.
+   - Obtém os valores dos itens avulcos e calcula seus pontos 
+usando a função `TotalAvulco`.
+   - Calcula os pontos adicionais para o kit, leite, suplemento 
+e sangue usando a função `TotalProva`.
+   - Soma todos os pontos e exibe o resultado na página.
+
+2. **Função Auxiliar (`TotalAvulco`)**:
+   - Recebe a quantidade de um item e seus pontos.
+   - Calcula o total de pontos para esse item multiplicando a 
+quantidade pelo valor dos pontos.
+
+3. **Função Auxiliar (`TotalProva`)**:
+   - Recebe o valor obtido, o alvo da prova e uma referência 
+(ref).
+   - Calcula os pontos com base no valor obtido em relação ao 
+alvo.
+   - Se o valor for maior ou igual ao alvo, adiciona um bônus 
+proporcional à referência.
+   - Caso contrário, calcula os pontos diretamente 
+proporcionalmente ao alvo.
+
+### Variáveis
+
+As variáveis principais do código são:
+
+- `ref`: Um número fixo de 5000 que parece ser uma referência 
+para o cálculo dos pontos.
+- `provaAvulco`: Um objeto contendo os valores dos itens avulcos 
+e seus respectivos pontos.
+- `teams`: Um objeto contendo as equipes e suas pontuações nas 
+provas 1 e 2.
+- `team`: A equipe selecionada pelo usuário, obtida do elemento 
+HTML com o ID "team".
+- Variáveis para armazenar os valores dos itens avulcos 
+(`pontosArroz5`, `pontosArroz1`, etc.).
+- Variáveis para armazenar os pontos totais de cada categoria 
+(`totalAvulco`, `totalKit`, etc.).
+
+### Lógica
+
+A lógica do código segue esses passos:
+
+1. **Seleção da Equipe**:
+   - Verifica se uma equipe foi selecionada pelo usuário.
+   - Se não, exibe um alerta solicitando a seleção.
+
+2. **Cálculo dos Pontos das Provas**:
+   - Obtém as pontuações das provas 1 e 2 para a equipe 
+selecionada.
+
+3. **Cálculo dos Pontos dos Itens Avulcos**:
+   - Para cada item avulco, obtém a quantidade informada pelo 
+usuário.
+   - Calcula os pontos multiplicando a quantidade pelo valor dos 
+pontos do item usando a função `TotalAvulco`.
+
+4. **Cálculo dos Pontos Adicionais**:
+   - Para o kit, leite, suplemento e sangue, obtém o valor 
+informado pelo usuário.
+   - Calcula os pontos com base no valor obtido em relação ao 
+alvo da prova usando a função `TotalProva`.
+
+5. **Soma dos Pontos**:
+   - Soma todos os pontos calculados para obter o total de 
+pontos.
+
+6. **Exibição do Resultado**:
+   - Exibe o total de pontos na página, formatado com duas casas 
+decimais.
+
+### Conclusão
+
+O código é funcional e eficiente para calcular o total de pontos 
+com base em várias provas e itens avulcos. Ele utiliza funções 
+auxiliares para modularizar o código e torná-lo mais legível e 
+manterável.
