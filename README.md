@@ -1,6 +1,117 @@
 ## Elementos HTML
 
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Propriedades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>&lt;!doctype html&gt;</code></td>
+      <td>Especifica o tipo de documento HTML5.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;html lang="pt-BR"&gt;</code></td>
+      <td>Define a linguagem do conteúdo como português (Brasil).</td>
+    </tr>
+    <tr>
+      <td><code>&lt;head&gt;</code></td>
+      <td>Contém metadados e referências externas para o documento.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;meta charset="UTF-8"&gt;</code></td>
+      <td>Especifica a codificação de caracteres como UTF-8.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;meta name="title" content="Trote solidário 2026"&gt;</code></td>
+      <td>Define o título da página para motores de busca e navegadores.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;meta name="description" content="Trote solidário 2026"&gt;</code></td>
+      <td>Fornece uma breve descrição da página para motores de busca.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></td>
+      <td>Melhora a exibição em dispositivos móveis.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;link rel="stylesheet" href="./css/styles.css"&gt;</code></td>
+      <td>Linka um arquivo CSS para estilizar o documento.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</code></td>
+      <td>Estabelece uma conexão prévia com um servidor de fontes.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;link 
+href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu+Mono:ital,whref="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&amily=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"&gt;</code></td>
+      <td>Linka uma fonte Google para uso no documento.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"&gt;</code></td>
+      <td>Linka um conjunto de ícones Material Symbols para uso no documento.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;link rel="shortcut icon" 
+href="https://ava-grad.unifacef.com.br/pluginfile.php/1/core_admin/favicon/64x64/1707216088/unifacef.png"&gt;</code></td>
+      <td>Especifica o ícone da página.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;title&gt;</code></td>
+      <td>Define o título exibido na aba do navegador.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;nav class="menu container"&gt;</code></td>
+      <td>Cria uma barra de navegação com a classe "menu" e "container".</td>
+    </tr>
+    <tr>
+      <td><code>&lt;div class="nav-main"&gt;</code></td>
+      <td>Contém o conteúdo principal da barra de navegação.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;a href="index.html"&gt;</code></td>
+      <td>Cria um link para a página inicial.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;header class="container"&gt;</code></td>
+      <td>Define o cabeçalho da página com a classe "container".</td>
+    </tr>
+    <tr>
+      <td><code>&lt;section class="container"&gt;</code></td>
+      <td>Cria uma seção do conteúdo principal com a classe "container".</td>
+    </tr>
+    <tr>
+      <td><code>&lt;button class="nav-btn left" onclick="anterior()"&gt;</code></td>
+      <td>Cria um botão para navegar para o conteúdo anterior.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;div class="card-body"&gt;</code></td>
+      <td>Define o corpo de uma cartão com a classe "card-body".</td>
+    </div>
+    <tr>
+      <td><code>&lt;a href="pages/teams.html" class="text-link text-primary text-end"&gt;</code></td>
+      <td>Cria um link para a página de equipes.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;footer class="container"&gt;</code></td>
+      <td>Define o rodapé da página com a classe "container".</td>
+    </tr>
+    <tr>
+      <td><code>&lt;a href="https://www.unifacef.com.br" class="text-link text-white" target="_blank"&gt;</code></td>
+      <td>Cria um link para o site da Uni-FACEF em uma nova aba.</td>
+    </tr>
+    <tr>
+      <td><code>&lt;script src="./js/content.js"&gt;</code></td>
+      <td>Inclui um arquivo JavaScript para funcionalidades adicionais.</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## Elementos CSS
+
 <table>
     <thead>
         <tr>
